@@ -3,8 +3,14 @@ import java.time.LocalDateTime
 
 import akka.actor.SupervisorStrategy.{Escalate, Restart, Resume, Stop}
 import akka.actor.{Actor, ActorSystem, Inbox, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
-
 import scala.concurrent.duration._
+
+
+/**
+  * see: https://doc.yonyoucloud.com/doc/akka-doc-cn/2.3.6/scala/book/chapter1/01_what_is_akka.html
+  *
+  * see: https://www.ibm.com/developerworks/cn/java/j-jvmc5/index.html
+  */
 
 object Demo extends App {
 

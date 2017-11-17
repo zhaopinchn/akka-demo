@@ -7,7 +7,9 @@ import akka.actor.Props;
 import akka.actor.UntypedActor;
 
 /**
- * akka actor test : zhaopin
+ * akka actor test: zhaopin
+ *
+ * test result see: http://www.bijishequ.com/detail/161314
  **/
 public class JvmTest extends UntypedActor {
     @Override

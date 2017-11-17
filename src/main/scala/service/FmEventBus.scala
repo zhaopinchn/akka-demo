@@ -43,7 +43,7 @@ object FmEventBus {
   eventBus.subscribe(fmHandler, FmEventType.HELLO)
 
   /**
-    * 业务2
+    * 业务2 ...
     */
 
 }
